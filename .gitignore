@@ -1,5 +1,4 @@
 EAD-Revision
 ead-test-col
-ead_revised.xsd
-xml.xsd
-xlink.xsd
+target
+*.xsd
