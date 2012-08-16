@@ -24,6 +24,7 @@ Using
 -----
 
 ```
-./pull_codes.sh
-mvn install
+./setup.sh	# git clone EAD-Revised and ead-test-col repos and trang up an .xsd
+mvn install	# as per pom.xml, runs XSLT and validates results
+./clean.sh	# prompts you to delete checked out and generated files
 ```
