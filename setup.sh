@@ -4,9 +4,10 @@ set -eu
 which git trang
 
 # get the EAD Revision (get on correct branch)
-git clone https://github.com/SAA-SDT/EAD-Revision.git
+#git clone https://github.com/SAA-SDT/EAD-Revision.git
+git clone https://github.com/tingletech/EAD-Revision.git
 cd EAD-Revision
-git checkout develop
+git checkout tingle_xslt
 cd ..
 
 # get ead test colleciton and use no versions w/o DTDs declared
